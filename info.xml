@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<extension key="com.digitlimit.pcp" type="module">
+  <file>pcp</file>
+  <name>Digitlimit Contact Personal Campaign Pages</name>
+  <description>
+    A CiviCRM extension which shows a new CiviCRM contact tab which displays a list of the personal campaign pages that a contact has created.
+    The tab shows the personal campaign page title (with a link to the page), status, contribution page or event that it is funding
+    for, no of contributions, amount raised, target amount and a link to the edit page form.
+  </description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Mbah Emeka</author>
+    <email>frankemeks77@yahoo.com</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/digitlimit/com.digitlimit.pcp</url>
+    <url desc="Documentation">https://github.com/digitlimit/com.digitlimit.pcp/wiki</url>
+    <url desc="Support">https://github.com/digitlimit/com.digitlimit.pcp/wiki</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2016-02-18</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <civix>
+    <namespace>CRM/Pcp</namespace>
+  </civix>
+</extension>
